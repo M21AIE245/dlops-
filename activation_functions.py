@@ -67,3 +67,9 @@ print([tanh(value) for value in random_values])
 for value in random_values:
     print(f"Sigmoid of {value}: {sigmoid(value)}")
 
+for value in random_values:
+    print(f"Sigmoid of {value}: {sigmoid(value)}")
+
+for value in random_values:
+    print(f"Sigmoid of {value}: {sigmoid(value)}")
+
