@@ -56,5 +56,14 @@ plt.show()
 random_values = [-3.5, -1.2, 0, 2.8, -4.1, 1.5, -0.7, 3.2, -2.4, 4.6]
 
 
+
+print("ReLU:")
+print([relu(value) for value in random_values])
+print("\nLeaky ReLU:")
+print([leaky_relu(value) for value in random_values])
+print("\nTanh:")
+print([tanh(value) for value in random_values])
+
 for value in random_values:
     print(f"Sigmoid of {value}: {sigmoid(value)}")
+
